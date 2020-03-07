@@ -116,8 +116,8 @@ void loop() {
   GSMmodule.println("AT+CMGF=1");
    delay(500);
 
-   GSMmodule.print("AT+CMGS=");
-   GSMmodule.print("xxxxxxxxxx");    //mobile no. for SMS alert
+   GSMmodule.print("AT+CMGS=\"+XXxxxxxxxxxx\"\r");
+   
    GSMmodule.println('"');
    delay(1000);
     Serial.println();
