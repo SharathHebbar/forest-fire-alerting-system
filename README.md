@@ -11,7 +11,7 @@
 3. GPS module
 4. Temperature sensor
 5. Bluetooth module (if required)
-6.Buzzer
+6. Buzzer
 
 
 #### Software
